@@ -1,3 +1,5 @@
+
+
 function fetchCountries(name) {
 
   const filters = "name,capital,population,flags,languages"
@@ -14,3 +16,4 @@ function fetchCountries(name) {
   return fetchQuery;
 }
 export { fetchCountries };
+
